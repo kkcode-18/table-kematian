@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Bangsat</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <table border="2">
+      <thead>
+        <tr>
+          <th rowspan="3">Day</th>
+          <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+          <th colspan="2">Schedule</th>
+          <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+          <th>Begin</th>
+          <th>End</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2">
+            <time datetime="08.00">8:00 a.m.</time>
+          </td>
+          <td rowspan="2">
+            <time datetime="11.00">11:00 a.m.</time>
+          </td>
+          <td>Introduction To XML</td>
+        </tr>
+        <tr>
+          <td>Validity: DTD & Relax NG</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Tuesday</td>
+          <td rowspan="1">
+            <time datetime="08.00">8:00 a.m.</time>
+          </td>
+          <td rowspan="1">
+            <time datetime="11.00">11:00 a.m.</time>
+          </td>
+          <td rowspan="1.5">XPath</td>
+        </tr>
+        <tr>
+          <td>
+            <time datetime="11.00">11:00 a.m.</time>
+          </td>
+          <td>
+            <time datetime="02.00">2:00 p.m.</time>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <time datetime="02.00">2:00 p.m.</time>
+          </td>
+          <td>
+            <time datetime="05.00">5:00 p.m.</time>
+          </td>
+          <td rowspan="1.5">XSL Transformations</td>
+        </tr>
+        <tr>
+          <td rowspan="1">Wednesday</td>
+          <td rowspan="1">
+            <time datetime="08.00">8:00 a.m.</time>
+          </td>
+          <td rowspan="1">
+            <time datetime="12.00">12:00 p.m.</time>
+          </td>
+          <td>XSL Formatting Objects</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <th colspan="4">Akhirnya jadi peng, table kontol. wkwkwk</th>
+      </tfoot>
+    </table>
+  </body>
+</html>
